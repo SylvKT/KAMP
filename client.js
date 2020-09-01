@@ -1,1 +1,0 @@
-window.client = new WebSocket("wss://ka-ajax.glitch.me");window.client.onmessage = function(msg) {console.log(msg);};window.client.onopen = function() {console.log("Connection opened!");};window.client.onclose = function() {console.log("connection closed.");};
